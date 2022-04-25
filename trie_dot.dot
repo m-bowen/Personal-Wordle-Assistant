@@ -1,0 +1,65 @@
+digraph Trie {
+
+
+    f1 -> r1[color = red, penwidth = 3.0];
+    r1 -> a1[color = red, penwidth = 3.0];
+    a1 -> u1[color = red, penwidth = 3.0];
+    u1 -> d1[color = red, penwidth = 3.0];
+
+    f1 -> a5[color = blue, penwidth = 3.0]
+    a5 -> i2[color = blue, penwidth = 3.0]
+    i2 -> n2[color = blue, penwidth = 3.0]
+    n2 -> t2[color = blue, penwidth = 3.0]
+
+    a5 -> k5[color = cyan, penwidth = 3.0];
+    k5 -> e5[color = cyan, penwidth = 3.0];
+    f1 -> a5[color = cyan, penwidth = 3.0];
+    e5 -> s2[color = cyan, penwidth = 3.0]
+
+    
+    f1 -> o3[color = orange, penwidth = 3.0]
+    o3 -> n3[color = orange, penwidth = 3.0]
+    n3 -> t3[color = orange, penwidth = 3.0]
+    t3 -> s3[color = orange, penwidth = 3.0]
+
+    f1 -> o3[color = purple, penwidth = 3.0]
+    o3 -> r3[color=purple, penwidth=3.0];
+    r3 -> k4[color=purple, penwidth=3.0];
+    k4 -> s4[color=purple, penwidth=3.0];
+    a5 -> k5[color = green, penwidth = 3.0];
+    k5 -> e5[color = green, penwidth = 3.0];
+    e5 -> d5[color = green, penwidth = 3.0];
+    f1 -> a5[color = green, penwidth = 3.0];
+
+
+    f1[label=f];
+    r1[label=r];
+    o3[label=o];
+    a5[label=a];
+    t3[label=t];
+    n3[label=n];
+    s3[label=s];
+    r3[label=r];
+    a1[label=a];
+    u1[label=u];
+    i2[label=i];
+    n2[label=n];
+    s2[label=s];
+    t2[label=t];
+    d1[label=d];
+    k4[label=k];
+    s4[label=s];
+    k5[label=k];
+    e5[label=e];
+    d5[label=d];
+
+    {rank=same; r1 o3 a5}
+    {rank=same; a1 r3 k5 n3}
+    {rank=same; }
+
+    
+
+
+
+
+}
