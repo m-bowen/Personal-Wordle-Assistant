@@ -8,5 +8,5 @@ This project applies the Trie Data Structure to create a Wordle helper. At the b
 - Download the files from github.
 - Run the following command to compile the files:
 ```g++ -std=c++14 -Wall main.cpp Node.cpp Trie.cpp -o WordlePersonalAssistant```
-- Run te following command after:
+- Run the following command after:
 ```./WordlePersonalAssistant```
