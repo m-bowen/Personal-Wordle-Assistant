@@ -15,3 +15,11 @@ This project applies the Trie Data Structure to create a Wordle helper. At the b
 - Run the following command after:
 ```./WordlePersonalAssistant```
 
+### How To Compile Visualizer
+- Download SFML Visualizer Folder
+- Run the Following Command:
+```g++ -c SFML_Visualizer.cpp -I/SFML-2.1/include```
+- Run the following command after:
+```g++ SFML_Visualizer.o SFML_Visualizer -lsfml-graphics -lsfml-system -lsfml-window```
+- Then run the following command to view it:
+```./SFML_Visualizer```
